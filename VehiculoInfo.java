@@ -57,6 +57,35 @@ public class VehiculoInfo {
         // guarda la capacidad de pasajeros como número entero
         int capacidadPasajeros = scanner.nextInt();
 
+        // Salidas solicitada
+        // Imprime línea en blanco y encabezado para datos del usuario
+        System.out.println("\n--- Datos del usuario ---");
+        
+        // Muestra el nombre ingresado por el usuario
+        System.out.println("Su nombre es: " + nombre);
+        
+        // Muestra la edad ingresada por el usuario
+        System.out.println("Su edad es: " + edad);
+        
+        // Imprime línea en blanco y encabezado para resumen del vehículo
+        System.out.println("\n--- Resumen del Vehiculo ---");
+        
+        // Muestra la marca del vehículo ingresada
+        System.out.println("La marca que ha ingresado es: " + marca);
+        
+        // Muestra el modelo del vehículo ingresado
+        System.out.println("El modelo que ha ingresado es: " + modelo);
+        
+        // Muestra la cilindrada del vehículo ingresada
+        System.out.println("La cilindrada que ha ingresado es: " + cilindrada);
+        
+        // Muestra el tipo de combustible ingresado
+        System.out.println("El tipo de combustible es: " + tipoCombustible);
+        
+        // Muestra la capacidad de pasajeros con texto formateado
+        System.out.println("Tiene una capacidad de " + capacidadPasajeros + " pasajeros.");
+        
+        // Cierra el objeto Scanner para liberar recursos del sistema
         scanner.close();
     }
 }
