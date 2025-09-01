@@ -4,7 +4,7 @@ import java.util.Scanner;
 // se deeclara la clase pública VehiculoInfo
 public class VehiculoInfo { 
     
-    // Método principal main, punto de entrada del programa
+    // Método principal main- punto de entrada del programa
     public static void main(String[] args) { 
         
         // se crea una instancia de scanner para leer datos desde teclado
